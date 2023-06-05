@@ -29,7 +29,7 @@ Rasheed Olatunde
 
 
 # Prototype
-![Minion](public/images/scissors-prototype.jpeg)
+![Minion](public/images/scissors-prototype.png)
  
 # How to Contribute
 
