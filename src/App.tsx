@@ -12,7 +12,6 @@ import Home from "./pages/home";
 import Pelumi from "./components/pelumi";
 import Adaeze from "./components/adaeze";
 import Lucas from "./components/lucas";
-import Rasheed from "./components/Rasheed";
 
 export default function App() {
   const router = createBrowserRouter(
@@ -27,7 +26,6 @@ export default function App() {
         <Route path="/pelumi" element={<Pelumi />} />
         <Route path="/adaeze" element={<Adaeze />} />
         <Route path="/lucas" element={<Lucas />} />
-        <Route path="/rasheed" element={<Rasheed />} />
       </Route>
     )
   );
