@@ -9,7 +9,7 @@ Here's some notes about my submission:
 
 1. A link to the project repository  https://github.com/olatunde1998/scissors-app
 
-2. A publicly live hosted URL of the challenge https://altschool-vue-exam-3.vercel.app/ 
+2. A publicly live hosted URL of the challenge https://scissors-app.vercel.app/ 
 
 Thank you very much AltSchool Africa.
 Best regards

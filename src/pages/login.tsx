@@ -6,9 +6,8 @@ type loginProps = {
 
 const Login: FC<loginProps> = ({ name }) => {
   return (
-    <div className="text-[48px] text-green-800 flex items-center justify-center">
-      login
-      {name}
+    <div className="text-[16px] text-green-800  mt-20 flex items-center justify-center px-8 md:mt-40 md:text-[28px]">
+       <p>{name}</p>
     </div>
   );
 };
