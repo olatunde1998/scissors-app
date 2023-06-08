@@ -1,10 +1,14 @@
-
+import heroBackgroundImage from '../assets/images/hero_section_bg.svg'
+import HeroContent from './hero-content';
 
 const Lucas = () => {
   return (
-    <div className="text-[16px] text-green-800 px-8 md:text-[28px]">
-    <p>Hi, Lucas</p>
-    </div>
+    <section 
+    className="bg-cover bg-no-repeat bg-center h-screen w-screen "
+    style={{ backgroundImage: `url(${heroBackgroundImage})` }}
+    >
+    <HeroContent />
+    </section>
   );
 };
 
