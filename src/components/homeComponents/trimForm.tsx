@@ -17,7 +17,7 @@ const TrimForm: FC<trimFormProps> = () => {
   return (
     <div>
       <form action="">
-        <div className="max-w-[500px] bg-white p-8">
+        <div className="max-w-[500px] bg-white p-10 rounded-xl">
           <Input
             type="text"
             placeholder="Paste URL here..."

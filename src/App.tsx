@@ -2,7 +2,6 @@ import {
   createBrowserRouter,
   createRoutesFromElements,
   Route,
-  Link,
   Outlet,
   RouterProvider,
 } from "react-router-dom";
@@ -18,12 +17,13 @@ export default function App() {
   const router = createBrowserRouter(
     createRoutesFromElements(
       <Route path="/" element={<Root />}>
-        <Route index element={<Home name="This is Home page" />} />
+        <Route index element={<Login name="This is Home page" />} />
         <Route
           path="/register"
           element={<Register name="This is Register page" />}
         />
-        <Route path="/login" element={<Login name="This is login page" />} />
+        {/* <Route index element={<Home name="This is Home page" />} /> */}
+        <Route path="/home" element={<Home name="this"/>} />
         <Route path="/pelumi" element={<Pelumi />} />
         <Route path="/adaeze" element={<Adaeze />} />
         <Route path="/adaeze2" element={<Adaeze2 />} />
@@ -41,7 +41,7 @@ export default function App() {
 const Root = () => {
   return (
     <>
-      <div className="mt-4 mx-2 flex justify-between">
+      {/* <div className="mt-4 mx-2 flex justify-between">
         <div>
           <Link to="/"> Home</Link>
         </div>
@@ -51,7 +51,7 @@ const Root = () => {
           </Link>
           <Link to="/login">Go to Login</Link>
         </div>
-      </div>
+      </div> */}
       <div>
         <Outlet />
       </div>

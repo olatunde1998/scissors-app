@@ -20,14 +20,14 @@ const Adaeze = () => {
         <div className="  max-w-7xl w-[85%] md:w-[75%] lg::w-[50%]  ">
             <div className="md:flex justify-center">
             <div className=" w-[250px]  p-[20px]" >
-                <img className="h-[1.5rem] w-[1.5rem] rounded-[50%] bg-[#3284FF] p-[5px]" src="https://res.cloudinary.com/dzfbm5ddp/image/upload/v1686138208/link-2_s0ja0u.png" alt="url picture" />
+                <img className="h-[1.5rem] w-[1.5rem] rounded-[50%] bg-[#3284FF] p-[5px]" src="https://res.cloudinary.com/dzfbm5ddp/image/upload/v1686138208/link-2_s0ja0u.png" alt="url picx" />
                 <h2 className="text-[#F6A32D] mt-[5px]">URL Shortening</h2>
              
                 <p className="  text-[12px] mt-[5px] ">Scissor allows you to shorten URLs of your business, events. Shorten your URL at scale, URL redirects.</p>
             </div>
            
             <div className=" w-[250px]  m-[10px] p-[20px]" >
-                <img className="h-[1.5rem] w-[1.5rem] rounded-[50%] bg-[#3284FF] p-[5px]" src="https://res.cloudinary.com/dzfbm5ddp/image/upload/v1686138208/edit_swumpd.png" alt="custom picture" />
+                <img className="h-[1.5rem] w-[1.5rem] rounded-[50%] bg-[#3284FF] p-[5px]" src="https://res.cloudinary.com/dzfbm5ddp/image/upload/v1686138208/edit_swumpd.png" alt="custom picx" />
                 <h2 className="text-[#F6A32D] mt-[5px]">Custom URLs</h2>
                
                 <p className="text-[12px] mt-[5px] ">With Scissor, you can create custom URLs, with the length you want! A solution for socials and businesses.</p>
@@ -37,13 +37,13 @@ const Adaeze = () => {
             <div className="md:flex justify-center ">
            
             <div className=" w-[250px] m-[10px] p-[20px]">
-                <img className="h-[1.5rem] w-[1.5rem] rounded-[50%] bg-[#3284FF] p-[5px] " src="https://res.cloudinary.com/dzfbm5ddp/image/upload/v1686138208/grid_omuhrp.png" alt="qr picture" />
+                <img className="h-[1.5rem] w-[1.5rem] rounded-[50%] bg-[#3284FF] p-[5px] " src="https://res.cloudinary.com/dzfbm5ddp/image/upload/v1686138208/grid_omuhrp.png" alt="qr picx" />
                 <h2 className="text-[#F6A32D] mt-[5px]">QR Codes</h2>
           
                 <p className="text-[12px] mt-[5px]">Generate QR codes to your business, events. Bring your audience and customers to your doorstep with this scan and go solution.</p>
             </div>
             <div className=" w-[250px] m-[10px] p-[20px]">
-                <img className="h-[1.5rem] w-[1.5rem] rounded-[50%] bg-[#3284FF] p-[5px]" src="https://res.cloudinary.com/dzfbm5ddp/image/upload/v1686138208/Vector_1_zk9xdk.png" alt="data pictures" />
+                <img className="h-[1.5rem] w-[1.5rem] rounded-[50%] bg-[#3284FF] p-[5px]" src="https://res.cloudinary.com/dzfbm5ddp/image/upload/v1686138208/Vector_1_zk9xdk.png" alt="data pixs" />
                 <h2 className="text-[#F6A32D] mt-[5px]">Data Analytics</h2>
                 
                 <p className="text-[12px] mt-[5px]">
