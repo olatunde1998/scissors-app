@@ -5,6 +5,7 @@ import TrimForm from "../components/homeComponents/trimForm";
 import Adaeze from "../components/adaeze";
 import Adaeze2 from "../components/adaeze2";
 import { Link } from "react-router-dom";
+import StatSection from "../components/statComponents/statSection";
 
 type homeProps = {
   name: string;
@@ -26,6 +27,9 @@ const Home: FC<homeProps> = () => {
       </div>
 
       <div className="text-[16px] text-green-800  mt-20 flex flex-col items-center justify-center px- md:mt-0 md:text-[28px]">
+        {/* <div> */}
+          <StatSection />
+        {/* </div> */}
         <div>
           <Adaeze />
         </div>
